@@ -1,0 +1,16 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* Por debajo de 700px */
+@media screen and (max-width: 700px){
+    .container{
+    font-size:16px;
+    }
+}
+/* Por debajo de 400px */
+    @media screen and (max-width: 400px){
+        .container{
+            font-size:12px;
+            }
+        }

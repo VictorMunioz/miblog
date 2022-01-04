@@ -1,0 +1,27 @@
+.footer {
+  background-color:#adadad;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px;
+  text-align: center;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  }
+  .insta-logo{
+    width: 30px;
+  }
+  @media screen and (max-width: 700px){
+    .footer{
+    font-size:14px;
+    }
+}
+/* Por debajo de 400px */
+    @media screen and (max-width: 400px){
+        .footer{
+            font-size:10px;
+            }
+            .insta-logo{
+              width: 20px;
+            }
+        }

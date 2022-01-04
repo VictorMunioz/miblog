@@ -1,0 +1,39 @@
+
+.cont-nav{
+    background-color:#adadad;
+}
+.nav-main{
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.vm-logo{
+    width: 80px;
+    margin: 12px;
+}
+/*navegacion izq*/
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+.nav-main ul li a:hover{ /*cuando el raton pasa por encima*/
+    border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 700px){
+    .nav-main{
+    font-size:14px;
+    }
+}
+/* Por debajo de 400px */
+    @media screen and (max-width: 400px){
+        .nav-main{
+            font-size:10px;
+            }
+        }
