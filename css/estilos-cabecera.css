@@ -32,7 +32,7 @@
     }
 }
 /* Por debajo de 400px */
-    @media screen and (max-width: 500px){
+    @media screen and (max-width: 400px){
         .nav-main{
             font-size:10px;
             }
